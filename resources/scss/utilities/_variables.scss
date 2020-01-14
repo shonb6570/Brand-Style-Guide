@@ -1,0 +1,31 @@
+//Descriptive color variables
+$white                    : #fff;
+$grey                     : #777;
+$very-light-grey          : #ccc;
+
+$malibu                   : #51DDFC;
+$sunglo                   : #E4757A;
+$purple-mountains-majesty : #927bc1;
+$emerald                  : #63cc82;
+$coral                    : #fd7856;
+$viking                   : #58e1c1;
+
+//Color usage
+$color-primary            : $viking;
+$color-secondary          : $grey;
+$color-link               : $malibu;
+$color-bquote-brdr        : $viking;
+
+//UI colors
+
+$ui-colors: (
+    default: $malibu,
+    error: $sunglo,
+    info: $purple-mountains-majesty,
+    success: $emerald,
+    warning: $coral
+);
+
+//Media query break-points
+
+$brk-wide :'(max-width: 768px)';
