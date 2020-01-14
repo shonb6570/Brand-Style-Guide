@@ -368,7 +368,7 @@ a {
 }
 
 .link {
-  color: #51DDFC;
+  color: #51ddfc;
   font-weight: 700;
 }
 
@@ -396,11 +396,11 @@ a {
 }
 
 .default {
-  background-color: #51DDFC;
+  background-color: #51ddfc;
 }
 
 .error {
-  background-color: #E4757A;
+  background-color: #e4757a;
 }
 
 .info {
@@ -498,7 +498,7 @@ a {
 .container {
   padding: 0 10px;
 }
-@media ((max-width: 768px)) {
+@media (min-width: 768px) {
   .container {
     max-width: 1400px;
     display: block;
@@ -507,7 +507,7 @@ a {
   }
 }
 
-@media ((max-width: 768px)) {
+@media (min-width: 768px) {
   .centered {
     display: block;
     margin-left: auto;
@@ -520,7 +520,7 @@ a {
   flex-direction: column;
   padding: 1em 10px;
 }
-@media ((max-width: 768px)) {
+@media (min-width: 768px) {
   .row {
     flex-direction: row;
   }
@@ -533,7 +533,7 @@ a {
   flex-basis: 100%;
   min-height: 25px;
 }
-@media ((max-width: 768px)) {
+@media (min-width: 768px) {
   [class^=col] {
     display: flex;
     justify-content: center;
@@ -542,7 +542,7 @@ a {
   }
 }
 
-@media ((max-width: 768px)) {
+@media (min-width: 768px) {
   [class^=col] + [class^=col] {
     margin-left: 10px;
   }
@@ -551,7 +551,7 @@ a {
 .theme.col-1 {
   background-color: #927bc1;
 }
-@media ((max-width: 768px)) {
+@media (min-width: 768px) {
   .theme.col-1 {
     flex-basis: 8.33%;
   }
@@ -560,7 +560,7 @@ a {
 .theme.col-2 {
   background-color: #fd7856;
 }
-@media ((max-width: 768px)) {
+@media (min-width: 768px) {
   .theme.col-2 {
     flex-basis: 16.67%;
   }
@@ -569,7 +569,7 @@ a {
 .theme.col-3 {
   background-color: #deb2ee;
 }
-@media ((max-width: 768px)) {
+@media (min-width: 768px) {
   .theme.col-3 {
     flex-basis: 25%;
   }
@@ -578,7 +578,7 @@ a {
 .theme.col-4 {
   background-color: #7ee6fd;
 }
-@media ((max-width: 768px)) {
+@media (min-width: 768px) {
   .theme.col-4 {
     flex-basis: 33.33%;
   }
@@ -587,7 +587,7 @@ a {
 .theme.col-5 {
   background-color: #88d9a0;
 }
-@media ((max-width: 768px)) {
+@media (min-width: 768px) {
   .theme.col-5 {
     flex-basis: 41.67%;
   }
@@ -596,7 +596,7 @@ a {
 .theme.col-6 {
   background-color: #4da2bb;
 }
-@media ((max-width: 768px)) {
+@media (min-width: 768px) {
   .theme.col-6 {
     flex-basis: 50%;
   }
@@ -605,7 +605,7 @@ a {
 .theme.col-7 {
   background-color: #ec9fa3;
 }
-@media ((max-width: 768px)) {
+@media (min-width: 768px) {
   .theme.col-7 {
     flex-basis: 58.33%;
   }
@@ -614,7 +614,7 @@ a {
 .theme.col-8 {
   background-color: #fd9f85;
 }
-@media ((max-width: 768px)) {
+@media (min-width: 768px) {
   .theme.col-8 {
     flex-basis: 66.67%;
   }
@@ -623,7 +623,7 @@ a {
 .theme.col-9 {
   background-color: #e4757a;
 }
-@media ((max-width: 768px)) {
+@media (min-width: 768px) {
   .theme.col-9 {
     flex-basis: 75%;
   }
@@ -632,7 +632,7 @@ a {
 .theme.col-10 {
   background-color: #63cc82;
 }
-@media ((max-width: 768px)) {
+@media (min-width: 768px) {
   .theme.col-10 {
     flex-basis: 83.33%;
   }
@@ -641,7 +641,7 @@ a {
 .theme.col-11 {
   background-color: #51ddfc;
 }
-@media ((max-width: 768px)) {
+@media (min-width: 768px) {
   .theme.col-11 {
     flex-basis: 91.67%;
   }
@@ -650,7 +650,7 @@ a {
 .theme.col-12 {
   background-color: #80e8d1;
 }
-@media ((max-width: 768px)) {
+@media (min-width: 768px) {
   .theme.col-12 {
     flex-basis: 100%;
   }
@@ -660,7 +660,7 @@ a {
   flex-basis: 100%;
 }
 
-@media ((max-width: 768px)) {
+@media (min-width: 768px) {
   .nav {
     flex-direction: row;
     justify-content: flex-end;
@@ -668,25 +668,25 @@ a {
   }
 }
 
-@media ((max-width: 768px)) {
+@media (min-width: 768px) {
   .nav-link {
     flex-basis: 100px;
   }
 }
 
-@media ((max-width: 768px)) {
+@media (min-width: 768px) {
   .btn {
     padding: 10px 30px;
   }
 }
 
-@media ((max-width: 768px)) {
+@media (min-width: 768px) {
   .btn + .btn {
     margin-left: 10px;
   }
 }
 
-@media ((max-width: 768px)) {
+@media (min-width: 768px) {
   .logo {
     margin-left: initial;
     margin-right: initial;
