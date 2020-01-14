@@ -49,85 +49,109 @@
 }
 
 
-.theme.col-1 {
-  background-color: $purple-mountains-majesty;
+.col-1 {
+  &.theme{
+    background-color: $purple-mountains-majesty;
+  }
   @media ($brk-wide) {
     flex-basis: 8.33%;
   }
 }
 
-.theme.col-2 {
+.col-2 {
+  &.theme{
   background-color: $coral;
+  }
   @media ($brk-wide) {
     flex-basis: 16.67%;
   }
 }
 
-.theme.col-3 {
+.col-3 {
+  &.theme{
   background-color: $wisteria;
+  }
   @media ($brk-wide) {
     flex-basis: 25.00%;
   }
 }
 
-.theme.col-4 {
+.col-4 {
+  &.theme{
   background-color: $electric-blue;
+  }
   @media ($brk-wide) {
     flex-basis: 33.33%;
   }
 }
 
-.theme.col-5 {
+.col-5 {
+  &.theme{
   background-color: $granny-smith-apple;
+  }
   @media ($brk-wide) {
     flex-basis: 41.67%;
   }
 }
 
-.theme.col-6 {
+.col-6 {
+  &.theme{
   background-color: $boston-blue;
+  }
   @media ($brk-wide) {
     flex-basis: 50.00%;
   }
 }
 
-.theme.col-7 {
+.col-7 {
+  &.theme{
   background-color: $wax-flower;
+  }
   @media ($brk-wide) {
     flex-basis: 58.33%;
   }
 }
 
-.theme.col-8 {
+.col-8 {
+  &.theme{
   background-color: $mona-lisa;
+  }
   @media ($brk-wide) {
     flex-basis: 66.67%;
   }
 }
 
-.theme.col-9 {
+.col-9 {
+  &.theme{
   background-color: $sunglo;
+  }
   @media ($brk-wide) {
     flex-basis: 75.00%
   }
 }
 
-.theme.col-10 {
+.col-10 {
+  &.theme{
   background-color: $emerald;
+  }
   @media ($brk-wide) {
     flex-basis: 83.33%;
   }
 }
 
-.theme.col-11 {
+.col-11 {
+  &.theme{
   background-color: $malibu;
+  }
   @media ($brk-wide) {
     flex-basis: 91.67%;
   }
 }
 
-.theme.col-12 {
+.col-12 {
+  &.theme{
   background-color: $turquoise-blue;
+  }
   @media ($brk-wide) {
     flex-basis: 100%;
   }

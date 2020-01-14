@@ -423,15 +423,10 @@ a {
 .form {
   flex-basis: 100%;
 }
-@media (min-width: 768px) {
-  .form {
-    max-width: 430px;
-  }
-}
 
 .input {
   display: block;
-  width: 94%;
+  width: 100%;
   margin: 10px auto 0;
   border: none;
   padding: 10px;
@@ -445,13 +440,6 @@ a {
   width: 1px;
   height: 1px;
   overflow: hidden;
-}
-
-.field {
-  border: none;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-  min-inline-size: none;
 }
 
 /* ============================================= */
@@ -562,110 +550,110 @@ a {
   }
 }
 
-.theme.col-1 {
+.col-1.theme {
   background-color: #927bc1;
 }
 @media (min-width: 768px) {
-  .theme.col-1 {
+  .col-1 {
     flex-basis: 8.33%;
   }
 }
 
-.theme.col-2 {
+.col-2.theme {
   background-color: #fd7856;
 }
 @media (min-width: 768px) {
-  .theme.col-2 {
+  .col-2 {
     flex-basis: 16.67%;
   }
 }
 
-.theme.col-3 {
+.col-3.theme {
   background-color: #deb2ee;
 }
 @media (min-width: 768px) {
-  .theme.col-3 {
+  .col-3 {
     flex-basis: 25%;
   }
 }
 
-.theme.col-4 {
+.col-4.theme {
   background-color: #7ee6fd;
 }
 @media (min-width: 768px) {
-  .theme.col-4 {
+  .col-4 {
     flex-basis: 33.33%;
   }
 }
 
-.theme.col-5 {
+.col-5.theme {
   background-color: #88d9a0;
 }
 @media (min-width: 768px) {
-  .theme.col-5 {
+  .col-5 {
     flex-basis: 41.67%;
   }
 }
 
-.theme.col-6 {
+.col-6.theme {
   background-color: #4da2bb;
 }
 @media (min-width: 768px) {
-  .theme.col-6 {
+  .col-6 {
     flex-basis: 50%;
   }
 }
 
-.theme.col-7 {
+.col-7.theme {
   background-color: #ec9fa3;
 }
 @media (min-width: 768px) {
-  .theme.col-7 {
+  .col-7 {
     flex-basis: 58.33%;
   }
 }
 
-.theme.col-8 {
+.col-8.theme {
   background-color: #fd9f85;
 }
 @media (min-width: 768px) {
-  .theme.col-8 {
+  .col-8 {
     flex-basis: 66.67%;
   }
 }
 
-.theme.col-9 {
+.col-9.theme {
   background-color: #e4757a;
 }
 @media (min-width: 768px) {
-  .theme.col-9 {
+  .col-9 {
     flex-basis: 75%;
   }
 }
 
-.theme.col-10 {
+.col-10.theme {
   background-color: #63cc82;
 }
 @media (min-width: 768px) {
-  .theme.col-10 {
+  .col-10 {
     flex-basis: 83.33%;
   }
 }
 
-.theme.col-11 {
+.col-11.theme {
   background-color: #51ddfc;
 }
 @media (min-width: 768px) {
-  .theme.col-11 {
+  .col-11 {
     flex-basis: 91.67%;
   }
 }
 
-.theme.col-12 {
+.col-12.theme {
   background-color: #80e8d1;
 }
 @media (min-width: 768px) {
-  .theme.col-12 {
+  .col-12 {
     flex-basis: 100%;
   }
 }
